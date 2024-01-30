@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        function onlyPlayOneIn(container) {
+            container.addEventListener("play", function(event) {
+            audio_elements = container.getElementsByTagName("audio")
+              for(i=0; i < audio_elements.length; i++) {
+                audio_element = audio_elements[i];
+                if (audio_element !== event.target) {
+                  audio_element.pause();
+                }
+              }
+            }, true);
+          }
+          
+          document.addEventListener("DOMContentLoaded", function() {
+            onlyPlayOneIn(document.body);
+          });
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-title">
+          <a>Music List </a>
+        </div>
+        </nav>
+    <div class="music-list">
+        
+    <div class="card">
+        <img src="../List/image/Sunny.jpeg" alt="Yorushika" style="width: 100%;">
+    <div class="container">
+        <h3>Sunny - Yorushika</h3>
+        <div class="lirik"><p>you are like the wind<h1></h1>
+            When I close my eyes it's dusk<h1></h1>
+            what are you thinking?<h1></h1>
+            I had my eyelids open<h1></h1>
+            your eyes are dark<h1></h1>
+            It smelled like it was going to clear up just a little bit.<h1></h1>
+            Sunny and sunny, flowers bloom<h1></h1>
+            Because it blooms and the sun shines<h1></h1>
+            Even the rain if it stops raining<h1></h1>
+            The sun will decorate you<h1></h1>
+            The sound that beats in my heart, calm down<h1></h1>
+            We are sunny winds<h1></h1>
+            Go beyond those clouds too<h1></h1>
+            far still far<h1></h1>
+            you look sunny<h1></h1>
+            Blue when I close my eyes<h1></h1>
+            what is sad?<h1></h1>
+            open eyelids<h1></h1>
+            Vidro in your eyes<h1></h1>
+            It smells like rain right now<h1></h1>
+            Cry to tears, cry to the sky<h1></h1>
+            Cry because of the rain<h1></h1>
+            Even the heavy rain<h1></h1>
+            It's sunny above the clouds<h1></h1>
+            Hear the sound of hitting the earth<h1></h1>
+            We are in a rough spring<h1></h1>
+            I'll cross that sea too<h1></h1>
+            far still far<h1></h1>
+            The passing rain stirs the grass<h1></h1>
+            Higumo: That's all because of spring.<h1></h1>
+            Like the wind, spring is on my chest<h1></h1>
+            wait for it to clear up<h1></h1>
+            Sunny and sunny, the sky is splitting<h1></h1>
+            It's because of spring that it's torn apart<h1></h1>
+            Even the rain if it stops raining<h1></h1>
+            The sun will decorate you<h1></h1>
+            With a heart-pounding sound<h1></h1>
+            We are the spring breeze<h1></h1>
+            I hear the clear wind in the sound<h1></h1>
+            Now, let this song calm down!<h1></h1>
+            Sunny and sunny, flowers bloom<h1></h1>
+            Blooming because of spring<h1></h1>
+            Go beyond those clouds too<h1></h1>
+            far still far<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Sunny (320 kbps).mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Giesha.jpg" alt="Geisha" style="width: 100%;">
+    <div class="container">
+        <h3>Karena Kamu(Speed-Up) - Geisha</h3>
+        <div class="lirik"><p>Karena kamu aku rela menunggu semua<h1></h1>
+            Sungguh berat yang ku rasa<h1></h1>
+            Karena kamu aku tetap bertahan<h1></h1>
+            Meskipun kini engkau di peluknya<h1></h1>
+            Masih mungkinkah semua abadi seperti dahulu<h1></h1>
+            Karenamu selalu karenamu ku cemburu<h1></h1>
+            Teruslah melangkah melupakan dirinya<h1></h1>
+            Tinggalkan dia untukku sekarang<h1></h1>
+            Saatnya tunjukkan semua tentang hatimu<h1></h1>
+            Bahwa akulah yang pantas untukmu<h1></h1>
+            Hanya kamu di setiap helahan nafasku<h1></h1>
+            Hanya kamu, hanya kamu<h1></h1>
+            Aku tahu engkau sangat dipuja mereka<h1></h1>
+            Bagai bintang yang bersinar<h1></h1>
+            Aku tahu ini semua jalanmu<h1></h1>
+            Tapi ku akan tetap menunggumu<h1></h1>
+            Jangan tinggalkan semua sendiri seperti dahulu<h1></h1>
+            Karenamu selalu karenamu ku cemburu<h1></h1>
+            Teruslah melangkah melupakan dirinya<h1></h1>
+            Tinggalkan dia untukku sekarang<h1></h1>
+            Saatnya tunjukkan semua tentang hatimu<h1></h1>
+            Bahwa akulah yang pantas untukmu<h1></h1>
+            Hanya kamu di setiap helahan nafasku<h1></h1>
+            Hanya kamu, hanya kamu<h1></h1>
+            Masih mungkinkah semua abadi seperti dahulu<h1></h1>
+            Karenamu selalu karenamu ku cemburu<h1></h1>
+            Teruslah melangkah melupakan dirinya<h1></h1>
+            Tinggalkan dia untukku sekarang<h1></h1>
+            Saatnya tunjukkan semua tentang hatimu<h1></h1>
+            Bahwa akulah yang pantas untukmu<h1></h1>
+            Teruslah melangkah melupakan dirinya<h1></h1>
+            Tinggalkan dia untukku sekarang<h1></h1>
+            Saatnya tunjukkan semua tentang hatimu<h1></h1>
+            Bahwa akulah yang pantas untukmu<h1></h1>
+            Hanya kamu di setiap helahan nafasku<h1></h1>
+            Hanya kamu, hanya kamu<h1></h1>
+            Hanya kamu</p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Geisha.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Shayou.jpeg" alt="Yorushika" style="width: 100%;">
+    <div class="container">
+        <h3>Shayou - Yorushika</h3>
+        <div class="lirik"><p>The madder red sun,<h1></h1>
+            blushing in cheeks color<h1></h1>
+            The setting sun <h1></h1>
+            softly burst out <h1></h1>
+            that we even not <h1></h1>
+            open our eyes <h1></h1>
+            So sad <h1></h1>
+            but there is no other way<h1></h1>
+            My hands got wet <h1></h1>
+            because of the Sun<h1></h1>
+            So dazzling <h1></h1>
+            but it can't be helped<h1></h1>
+            I'm at a loss<h1></h1>
+            when going home<h1></h1>
+            Because <h1></h1>
+            the red madder sun <h1></h1>
+            seems like <h1></h1>
+            to keep sinking <h1></h1>
+            Even though, <h1></h1>
+            just a bit more <h1></h1>
+            I could love <h1></h1>
+            one part of me <h1></h1>
+            But when I realized <h1></h1>
+            of the setting sun, <h1></h1>
+            I even not open my eyes <h1></h1>
+            in the silent <h1></h1>
+            evening calm<h1></h1>
+            So sad <h1></h1>
+            but there is no other way<h1></h1>
+            My hands <h1></h1>
+            have touched the Sun<h1></h1>
+            As if simmering burn,<h1></h1>
+            it's always <h1></h1>
+            my fingertips <h1></h1>
+            that are scorched<h1></h1>
+            Like grapes <h1></h1>
+            that have grown tall<h1></h1>
+            Just stop because <h1></h1>
+            it can't be reached<h1></h1>
+            I wonder if I fell in love?<h1></h1>
+            Even though <h1></h1>
+            it's just like the Sun, <h1></h1>
+            that's keep sinking<h1></h1>
+            If there is no reason, <h1></h1>
+            then it's true<h1></h1>
+            The madder red sun, <h1></h1>
+            blushing in cheeks color<h1></h1>
+            If only the setting sun <h1></h1>
+            that softly burst out<h1></h1>
+            would only shine<h1></h1>
+            on our path<h1></h1>
+            Even though, <h1></h1>
+            just a bit more<h1></h1>
+            I can love <h1></h1>
+            one part of me<h1></h1>
+            But <h1></h1>
+            I saw you blushing <h1></h1>
+            in the setting sun.<h1></h1>
+            In the silent <h1></h1>
+            evening calm,<h1></h1>
+            we even not <h1></h1>
+            open our eyes<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Shayou.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Anly.jpg" alt="Anly" style="width: 100%;">
+    <div class="container">
+        <h3>Anly - Karanokokoro</h3>
+        <div class="lirik"><p>Falling through the cracks<h1></h1>
+            falling into darkness<h1></h1>
+            I'll never let go of your hand <h1></h1>
+            Tell me the story of your life <h1></h1>
+            still on the way <h1></h1>
+            I'll never give up on you <h1></h1>
+            Falling through the cracks <h1></h1>
+            falling into darkness<h1></h1>
+            I'll never let go of your hand <h1></h1>
+            Tell me the story of your life<h1></h1>
+            still on the way <h1></h1>
+            I'll never give up on you<h1></h1>
+            an irresistible urge<h1></h1>
+            Casual days are love<h1></h1>
+            If I look back nostalgically <h1></h1>
+            I can always hear your voice <h1></h1>
+            Underdog wanders around <h1></h1>
+            Even if I take a detour, it's better than running away. <h1></h1>
+            I have to believe in myself <h1></h1>
+            Who do you believe? <h1></h1>
+            Hold your hand up to the light oh yeah <h1></h1>
+            Shining through the clouds <h1></h1>
+            falling into darkness <h1></h1>
+            I'll never let go of your hand <h1></h1>
+            Tell me what is on your mind <h1></h1>
+            An endless dream <h1></h1>
+            Chasing, we will never give up<h1></h1>
+            Give it up! Keep it up! Turn it upside down! <h1></h1>
+            Let's live together<h1></h1>
+            Always running at full speed <h1></h1>
+            Aiming for that top<h1></h1>
+            The place I keep searching for is<h1></h1>
+            I'll be waiting for you anytime <h1></h1>
+            Our lives are winding road <h1></h1>
+            Even a detour is better than going back.<h1></h1>
+            Even if I make a mistake, it's not a waste <h1></h1>
+            Proceed without hesitation<h1></h1>
+            Falling through the cracks <h1></h1>
+            falling into darkness<h1></h1>
+            I'll never let go of your hand<h1></h1>
+            Tell me the story of your life <h1></h1>
+            still on the way <h1></h1>
+            I'll never give up on you<h1></h1>
+            I'm just lost in a life without answers <h1></h1>
+            Don't give it up! Keep it up! Turn it upside down!<h1></h1>
+            Our hearts are connected even if we're far apart <h1></h1>
+            Let's live together<h1></h1>
+            Give it up! Keep it up! Turn it upside down! <h1></h1>
+            Let's live together<h1></h1>
+            Give it up! Keep it up! Turn it upside down!<h1></h1>
+            Let's live together<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Anly - Karanokokoro.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Blue_encount.jpg" alt="Blue Encount" style="width: 100%;">
+    <div class="container">
+        <h3>Blue Encount - Polaris</h3>
+        <div class="lirik"><p>That day, I decided to "protect"<h1></h1>
+            The promise is in my heart<h1></h1>
+            If there is a life that can be saved now by losing everything<h1></h1>
+            I'd be happy to give it all<h1></h1>
+            This feeling is my first purpose in life<h1></h1>
+            Don't hide your scars<h1></h1>
+            I decided to live using despair as a weapon.<h1></h1>
+            I'll do my best to wipe away these tears<h1></h1>
+            I'll give you everything<h1></h1>
+            Please don't disappear<h1></h1>
+            That day, I decided to "protect"<h1></h1>
+            The promise is in my heart<h1></h1>
+            I'm fighting while being kept alive by someone else's life.<h1></h1>
+            I'm not afraid of losing anymore<h1></h1>
+            I hate giving up on winning<h1></h1>
+            I'll never run away again<h1></h1>
+            I just want to challenge myself to be the person I want to be.<h1></h1>
+            Even if it's a hopelessly beautiful thing<h1></h1>
+            I just want you to smile<h1></h1>
+            "Strength" doesn't exist to stand on something.<h1></h1>
+            To embrace what's important to you<h1></h1>
+            Even if I lose everything<h1></h1>
+            I'll definitely never forget you<h1></h1>
+            I'll do my best to wipe away these tears<h1></h1>
+            I'll give you everything<h1></h1>
+            Please don't disappear<h1></h1>
+            That day, I decided to "protect"<h1></h1>
+            The promise is in my heart<h1></h1>
+            Even if the hope (light) is about to disappear, go<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/BLUE ENCOUNT - Polaris.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/amazarashi.jpg" alt="Amazarashi" style="width: 100%;">
+    <div class="container">
+        <h3>Amazarashi - Season one after another</h3>
+        <div class="lirik"><p>Seasons die one after another<h1></h1>
+            The voice of death becomes the wind<h1></h1>
+            A man who can't get drunk in a colorful city<h1></h1>
+            It's uncool to look up at the moon here<h1></h1>
+            To a life where my feet get tangled in the mud<h1></h1>
+            The rain tasted like alcohol<h1></h1>
+            Wandering around town with apathetic eyes<h1></h1>
+            Innocent with suspicious behavior in front of the station<h1></h1>
+            I'm not sure what to call me<h1></h1>
+            The translucent shadow is like a living wind<h1></h1>
+            If I sing in the rain, will the clouds break?<h1></h1>
+            It's the dried up life of a lively summer.<h1></h1>
+            Dear Sirs, A poem of insulation that speaks to the abhorrent past.<h1></h1>
+            The worst days, the worst dreams<h1></h1>
+            I can't just throw away the wreckage<h1></h1>
+            I'm going to take my last breath here<h1></h1>
+            A poem of change that will be passed on to you as the flowers bloom in future generations<h1></h1>
+            Surrounded by suffering, mourning and sadness<h1></h1>
+            Still, it's a song that never ends<h1></h1>
+            Even if the sun doesn't shine<h1></h1>
+            Tomorrow we will die one after another<h1></h1>
+            Even if you hurry, you won't be able to catch up and it will become the past<h1></h1>
+            We live fast, the fire that lights is sad<h1></h1>
+            The meaning of life comes later.<h1></h1>
+            It's too uncertain for you to be you<h1></h1>
+            Even if my unstable ego hates you<h1></h1>
+            If I at least sing, will the darkness clear up?<h1></h1>
+            It's a life entrusted to a rotten dream.<h1></h1>
+            Dear Sirs, A poem of isolation that speaks to the abominable past.<h1></h1>
+            The worst days, the worst dreams<h1></h1>
+            I can't just throw away the wreckage<h1></h1>
+            I'm going to take my last breath here<h1></h1>
+            A poem of change that will be passed on to you as the flowers bloom in future generations<h1></h1>
+            Surrounded by suffering, mourning and sadness<h1></h1>
+            Still, it's a song that never ends<h1></h1>
+            Even if the sun doesn't shine<h1></h1>
+            With a tired face and dragging my feet<h1></h1>
+            Frowning in the reflection of the setting sun<h1></h1>
+            I'm worried about whether I should go or go back.<h1></h1>
+            After a while, your back will start walking<h1></h1>
+            Yes, I have to go<h1></h1>
+            I'll survive no matter what<h1></h1>
+            We are the lives we picked up anyway.<h1></h1>
+            I'll leave it here.<h1></h1>
+            Dear Sirs, A nostalgic poem that remembers the past that is now gone.<h1></h1>
+            The worst days, the worst dreams<h1></h1>
+            If you think it's the beginning, it's a long way away<h1></h1>
+            The flowers will fall anyway, and life will return to the circle of reincarnation.<h1></h1>
+            Surrounded by suffering, mourning and sadness<h1></h1>
+            Still, it's a song that never ends<h1></h1>
+            Even if the sun doesn't shine<h1></h1>
+            The seasons revive one after another<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/amazarashi Seasons die one after another.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/asphyxia.jpeg" alt="Cö shu Nie" style="width: 100%;">
+    <div class="container">
+        <h3>Cö shu Nie - Asphyxia</h3>
+        <div class="lirik"><p>Trapped in the night, the child held his breath with no expression on his face.<h1></h1>
+            After all, it's not all things that can't be helped.<h1></h1>
+            I'm drowning in a world I can't change<h1></h1>
+            Open your eyes, the sinking shadow<h1></h1>
+            Open your eyes<h1></h1>
+            No matter what, this is reality<h1></h1>
+            What is freedom?<h1></h1>
+            The pain you gave me<h1></h1>
+            I was hoping all by myself that it might be love<h1></h1>
+            weed me out<h1></h1>
+            No need for schadenfreude<h1></h1>
+            I'm tired of artificial dramatics<h1></h1>
+            Indulge in Discord<h1></h1>
+            It's absurd, 'I can't help it'<h1></h1>
+            How long will I be able to say this? How much will I have to give up?<h1></h1>
+            Laughable<h1></h1>
+            Live even if you're broken, a disappointing end roll<h1></h1>
+            I will continue with a heart that has broken many times yeah<h1></h1>
+            Because my body gets rusty every time I take a breath<h1></h1>
+            Even though I'm peeling away, I just have to acknowledge it and fight.<h1></h1>
+            Elegy doesn't change in the slightest<h1></h1>
+            Start breathing in the night<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Cö shu Nie - Asphyxia.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Akuma.jpeg" alt="Ai Higuchi" style="width: 100%;">
+    <div class="container">
+        <h3>Ai Higuchi - Akuma no Ko</h3>
+        <div class="lirik"><p>An iron bullet is proof of justice<h1></h1>
+            If you persevere, you'll get closer to becoming a hero.<h1></h1>
+            If you close your eyes and touch it<h1></h1>
+            Same shape, same body temperature devil<h1></h1>
+            I'm no good, is he good?<h1></h1>
+            There was just a wall<h1></h1>
+            Don't lament the fate of being born<h1></h1>
+            we are all free<h1></h1>
+            If you have wings like a bird<h1></h1>
+            I can go anywhere<h1></h1>
+            If I don't have a place to go back to<h1></h1>
+            I'm sure I can't go anywhere<h1></h1>
+            I don't want to just live<h1></h1>
+            The world is cruel, but I still love you<h1></h1>
+            No matter what I sacrifice, I'll still protect you<h1></h1>
+            Even if it's a mistake, I won't doubt it<h1></h1>
+            Being right means believing strongly in yourself.<h1></h1>
+            Scene of falling iron rain<h1></h1>
+            It looked like a movie on TV<h1></h1>
+            War is stupid brutality<h1></h1>
+            It doesn't matter, it's about a country I don't know<h1></h1>
+            Then why do you hate him?<h1></h1>
+            The reason why I can't hide my dark feelings<h1></h1>
+            I can't even explain it.<h1></h1>
+            We are full of contradictions<h1></h1>
+            If this word is also translated<h1></h1>
+            The true meaning cannot be conveyed<h1></h1>
+            To believe, open your eyes<h1></h1>
+            Only the world I touched<h1></h1>
+            I don't want to just live<h1></h1>
+            The world is cruel, but I still love you<h1></h1>
+            No matter what I sacrifice, I'll still protect you<h1></h1>
+            The shadow of the person I chose, the corpse of the one I threw away<h1></h1>
+            I realized that the child of the devil is growing inside me.<h1></h1>
+            Behind the scenes of justice, in the center of sacrifice, there is a child of the devil in my heart.<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Ai Higuchi Akuma no Ko.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Hoshino.jpeg" alt="Gen Hoshino" style="width: 100%;">
+    <div class="container">
+        <h3>Comedy - Gen Hoshino</h3>
+        <div class="lirik"><p>We fought each other and almost broke down<h1></h1>
+            On this playful planet<h1></h1>
+            An outsider since the day I was born<h1></h1>
+            My tears have dried up<h1></h1>
+            The place I return to is in my dreams<h1></h1>
+            We met at the end of the spill<h1></h1>
+            just keep a secret<h1></h1>
+            With you pretending to be normal<h1></h1>
+            I gave up looking<h1></h1>
+            My place was something I made.<h1></h1>
+            We exchanged that day<h1></h1>
+            better than blood<h1></h1>
+            a contract of hearts<h1></h1>
+            Shall we hold hands and go home?<h1></h1>
+            What shall we eat today?<h1></h1>
+            "This happened"<h1></h1>
+            I wanted to talk to you.<h1></h1>
+            At any time of day<h1></h1>
+            It's a comedy with you<h1></h1>
+            Dancing on the creaky bed<h1></h1>
+            Still laughing<h1></h1>
+            The playful life continues<h1></h1>
+            I grew up being told I was inferior.<h1></h1>
+            On this crazy planet<h1></h1>
+            I pretended to be normal and realized<h1></h1>
+            who decided<h1></h1>
+            my light was just here<h1></h1>
+            It came undone that day<h1></h1>
+            A faint curse<h1></h1>
+            A heartfelt goodbye<h1></h1>
+            Shall we go home with our heads up?<h1></h1>
+            Flowers in full bloom<h1></h1>
+            "It's so beautiful"<h1></h1>
+            I wanted to talk to you.<h1></h1>
+            any day<h1></h1>
+            The miracle of being with you<h1></h1>
+            In the kitchen that connects you to life<h1></h1>
+            Without being able to convey it<h1></h1>
+            The playful life continues<h1></h1>
+            after work<h1></h1>
+            walking together<h1></h1>
+            The morning sun will rise, ah<h1></h1>
+            Thank you<h1></h1>
+            Because it's not enough<h1></h1>
+            holding hands<h1></h1>
+            Let's go home now<h1></h1>
+            What shall we eat today?<h1></h1>
+            "This happened"<h1></h1>
+            I wanted to talk to you.<h1></h1>
+            At any time of day<h1></h1>
+            It's a comedy with you<h1></h1>
+            Dancing on the creaky bed<h1></h1>
+            Still laughing<h1></h1>
+            Shall we search for eternity?<h1></h1>
+            Let's live as much as possible<h1></h1>
+            No matter what happens<h1></h1>
+            I wanted to talk to you.<h1></h1>
+            forever and ever<h1></h1>
+            It's a comedy with you<h1></h1>
+            In the days we shared<h1></h1>
+            Before I fell down laughing<h1></h1>
+            The playful life continues<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Comedy  Gen Hoshino.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Keane.png" alt="Keane" style="width: 100%;">
+    <div class="container">
+        <h3>Keane - Somewhere Only We Know</h3>
+        <div class="lirik"><p>I walked across an empty land<h1></h1>
+            I knew the pathway like the back of my hand<h1></h1>
+            I felt the earth beneath my feet<h1></h1>
+            Sat by the river and it made me complete<h1></h1>
+            Oh, simple thing, where have you gone?<h1></h1>
+            I'm getting old, and I need something to rely on<h1></h1>
+            So, tell me when you're gonna let me in<h1></h1>
+            I'm getting tired, and I need somewhere to begin<h1></h1>
+            I came across a fallen tree<h1></h1>
+            I felt the branches of it looking at me<h1></h1>
+            Is this the place we used to love?<h1></h1>
+            Is this the place that I've been dreaming of?<h1></h1>
+            Oh, simple thing, where have you gone?<h1></h1>
+            I'm getting old, and I need something to rely on<h1></h1>
+            So, tell me when you're gonna let me in<h1></h1>
+            I'm getting tired, and I need somewhere to begin<h1></h1>
+            And if you have a minute, why don't we go<h1></h1>
+            Talk about it somewhere only we know?<h1></h1>
+            This could be the end of everything<h1></h1>
+            So, why don't we go somewhere only we know?<h1></h1>
+            Somewhere only we know<h1></h1>
+            Oh, simple thing, where have you gone?<h1></h1>
+            I'm getting old, and I need something to rely on<h1></h1>
+            So, tell me when you're gonna let me in<h1></h1>
+            I'm getting tired, and I need somewhere to begin<h1></h1>
+            And if you have a minute, why don't we go<h1></h1>
+            Talk about it somewhere only we know?<h1></h1>
+            This could be the end of everything<h1></h1>
+            So, why don't we go?<h1></h1>
+            So, why don't we go?<h1></h1>
+            Ooh, oh-oh<h1></h1>
+            Ah, oh<h1></h1>
+            This could be the end of everything<h1></h1>
+            So, why don't we go somewhere only we know?<h1></h1>
+            Somewhere only we know<h1></h1>
+            Somewhere only we know<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Keane - Somewhere Only We Know (Official Music Video).mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/NeckDeep.jpeg" alt="Neck Deep" style="width: 100%;">
+    <div class="container">
+        <h3>Neck Deep - December</h3>
+        <div class="lirik"><p>Walked around the block a thousand times<h1></h1>
+            You missed every call that I had tried<h1></h1>
+            So now I'm giving up<h1></h1>
+            A heartbreak in mid December<h1></h1>
+            You don't give a fuck<h1></h1>
+            You never remember me<h1></h1>
+            While you're pulling on his jeans<h1></h1>
+            Getting lost in the big city<h1></h1>
+            I was looking out your window<h1></h1>
+            Watching all the cars go<h1></h1>
+            Wondering if see Chicago<h1></h1>
+            Or a sunset on the west coast<h1></h1>
+            Or will I die in the cold<h1></h1>
+            Feeling blue and alone<h1></h1>
+            I wonder if you'll ever hear this song on your stereo<h1></h1>
+            I hope you get your ball room floor<h1></h1>
+            Your perfect house with rose red doors<h1></h1>
+            I'm the last thing you'd remember<h1></h1>
+            It's been a long lonely December<h1></h1>
+            I wish I'd known that less is more<h1></h1>
+            But I was passed out on the floor<h1></h1>
+            That's the last thing I remember<h1></h1>
+            It's been a long lonely December<h1></h1>
+            Cast me aside to show yourself in a better light<h1></h1>
+            I came out grieving, barely breathing and you came out alright<h1></h1>
+            But I'm sure you'll take his hand<h1></h1>
+            I hope he's better than I ever could have been<h1></h1>
+            My mistakes were not intentions this is a list of my confessions I couldn't say<h1></h1>
+            Pain is never permanent but tonight it's killing me<h1></h1>
+            I hope you get your ball room floor<h1></h1>
+            Your perfect house with rose red doors<h1></h1>
+            I'm the last thing you'd remember<h1></h1>
+            It's been a long lonely December<h1></h1>
+            I wish I'd known that less is more<h1></h1>
+            But I was passed out on the floor<h1></h1>
+            That's the last thing I remember<h1></h1>
+            It's been a long lonely December<h1></h1>
+            I miss your face<h1></h1>
+            You're in my head<h1></h1>
+            There's so many things that I should have said<h1></h1>
+            A year of suffering, a lesson learned<h1></h1>
+            I miss your face (miss your face)<h1></h1>
+            You're in my head (you're in my head)<h1></h1>
+            There's so many things that I should have said (things I should have said)<h1></h1>
+            A year of suffering, a lesson learned<h1></h1>
+            I hope you get your ball room floor<h1></h1>
+            Your perfect house with rose red doors<h1></h1>
+            I'm the last thing you'd remember<h1></h1>
+            It's been a long lonely December<h1></h1>
+            (I miss you, I wish you well) I wish I'd known that less is more<h1></h1>
+            but I was passed out on the floor (I miss you but I wish you well)<h1></h1>
+            (I miss you, I miss you) and that's the last thing I remember<h1></h1>
+            It's been a long lonely December<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/Neck Deep - December.mp3">
+        </audio>
+        </div>
+    </div>
+    <div class="card">
+        <img src="../List/image/Sumika.jpeg" alt="Sumika" style="width: 100%;">
+    <div class="container">
+        <h3>Sumika - Fiction</h3>
+        <div class="lirik"><p>Well, let's start today too.<br><br>
+            Continuing from the bookmark I posted yesterday<h1></h1>
+            If there is happiness, there is also pain; the story follows the waves.<h1></h1>
+            I went through the deep sea and went to a flying city, and I couldn't get off from there.<h1></h1>
+            Developments that seem unrelated<h1></h1>
+            Surely a unique story<h1></h1>
+            Don't forget to put sticky notes in areas where the sound is high.<h1></h1>
+            Useful to prepare for the negative aspects that sometimes come.<h1></h1>
+            Flirting and flipping<h1></h1>
+            Story Story Emotions, Angers, Sadness, Busy<h1></h1>
+            Flirting and flipping<h1></h1>
+            Story Story Not Busy Neverending<h1></h1>
+            When will it end?<h1></h1>
+            Everyone, I have no idea.<h1></h1>
+            Unfortunately, I have no idea.<h1></h1>
+            Well, let's start today too, the bookmarked page, the traces of tears<h1></h1>
+            I closed it involuntarily because it was painful, but don't forget the reason.<h1></h1>
+            The further I read, the more I saw blank pages.<h1></h1>
+            Create a beginning, development, turn and conclusion as you like<h1></h1>
+            Flirting and flipping<h1></h1>
+            Story Story Emotions, Angers, Sadness, Busy<h1></h1>
+            leisurely wander around<h1></h1>
+            story story self-responsibility rugged<h1></h1>
+            When you want to tear it up and throw it away, try it again<h1></h1>
+            Reread the location of the sticky notes<h1></h1>
+            The story that was there<h1></h1>
+            Are there any colorful characters?<h1></h1>
+            Come on, remember<h1></h1>
+            Whoa, whoa<h1></h1>
+            Flirting and flipping<h1></h1>
+            Story Story Emotions, Angers, Sadness, Busy<h1></h1>
+            Flirting and flipping<h1></h1>
+            Story Story If it rings loud, it'll never end<h1></h1>
+            When will it end?<h1></h1>
+            Everyone, I have no idea.<h1></h1>
+            Unfortunately, I have no idea.<h1></h1>
+            Well, let's start today too.<h1></h1>
+            </p></div>
+        <audio controls loop autoplay>
+            <source src="../List/lagu/sumika Fiction.mp3">
+        </audio>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="credit">
+        <h2>Di buat oleh <span>Ferdian Daffarel A</span>❤️</h2>
+    </div>
+    <div class="socials">
+        <a href="https://www.instagram.com/ferdian_dffarel/"><i data-feather="instagram"></i></a>
+        <a href="https://github.com/RetDaffarel"><i data-feather="github"></i></a>
+        <a href="https://www.linkedin.com/in/ferdian-daffarel-ard"><i data-feather="linkedin"></i></a>
+      </div>
+</footer>
+<script>
+    feather.replace()
+  </script>
+</body>
+</html>

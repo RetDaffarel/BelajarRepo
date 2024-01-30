@@ -1,0 +1,136 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: rgb(18, 122, 34);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 5%;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.815);
+  border-bottom: 3px solid;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+.navbar .navbar-title a {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.navbar .navbar-title a:hover {
+  color:#fff;
+}
+.music-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 4.5rem;
+    justify-content: center;
+}
+.music-list .card {
+    box-shadow: 0 4px 0 rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    transition: 0.3s;
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+    padding-right: 18px;
+}
+.music-list .card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.music-list .card:hover {
+    transform: scale(1.1);
+}
+.music-list .container {
+    box-shadow: 0 8px 16px ;
+    background-color: rgb(0, 0, 0);
+}
+.music-list .container h3 {
+    
+    color: #fff;
+}
+.music-list .container {
+    padding: 4px 16px 4px;
+}
+.music-list .container .lirik {
+    overflow-y: scroll;
+    width: 100%;
+    max-height: 90px;
+    color: #fff;
+}
+.music-list .container .lirik:hover {
+    font-size: larger;
+    border-radius: 10px;
+} 
+footer {
+  background-color:  rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 3rem;
+  color: #fff;
+  font-size: larger;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: rgb(18, 122, 34);
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  padding: 2px;
+  font-size: 0.8rem;
+}
+footer .credit span {
+    color: rgb(42, 255, 255);
+}
+
+footer .credit a {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+/*Mobile*/
+@media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
